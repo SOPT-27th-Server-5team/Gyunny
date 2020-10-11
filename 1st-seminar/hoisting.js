@@ -1,6 +1,5 @@
 // 호이스팅이란?  var, function 선언문 등을 해당 스코프의 선두로 옮긴 것처럼 동작하는 특성 
 
- 
 hoistFunction();
 
 

@@ -41,17 +41,19 @@ console.log(square(2));   // 4
 
 // 객체 리턴
 
-var person = function(name, age) {
+var person = function() {
   return {
     name: "최정균",
     age: 25
   };
 }
 
-console.log(person);
+console.log(person());
+console.log(person().name);  // 이름 파싱
+console.log(person().age);   // 나이 파싱
 
 // 로직이 한줄이라면 () 소괄호로 감싸줘야 함
 
 var person2 = (name, age) => ({name: "최정균", age: 25});
 
-console.log(person2)
+console.log(person2());

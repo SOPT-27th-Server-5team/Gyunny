@@ -7,5 +7,5 @@ console.log(`x: ${x}, type ${typeof x}`); //undefined
 
 // null, undefined 차이는 ? https://webclub.tistory.com/1
 console.log('null vs undefined');   
-console.log('null === undefined: ', null === undefined);  // false
-console.log('null == undefined: ', null == undefined);    // true 
+console.log('null === undefined: ', null === undefined);  // false (=== 은 값, 타입 비교)
+console.log('null == undefined: ', null == undefined);    // true  (== 값만 비교)
