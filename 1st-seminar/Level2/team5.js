@@ -15,31 +15,31 @@ const team5 = [
     name: '이진호',
     age: 27,
     hobby: '당구',
-    address: '경기도 안산시'
+    address: '경기도 안산'
   },
   {
     name: '김수현',
     age: 24,
     hobby: '좋은 음악 찾기',
-    address: '서울시 강남구'
+    address: '서울'
   },
   {
     name: '최다인',
-    age: 23,
-    hobby: 'Travel',
-    address: '경기도 수원시',
+    age: 24,
+    hobby: '갬성카페 가기',
+    address: '서울',
   },
   {
     name: '윤가영',
     age: 21,
     hobby: 'Coding',
-    address: '대한민국'
+    address: '서울'
   },
   {
     name: '최예진',
     age: 23,
-    hobby: 'Running',
-    address: '서울시 강남구'
+    hobby: '드라마 보기',
+    address: '서울'
   }
 ]
 
