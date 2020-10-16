@@ -12,7 +12,7 @@ const serverTeam = require('./members');
  * 조건1. OB, YB 비율 오차범위를 최소한으로 유지하며 코드 작성
  */
 
-const OBServer = serverTeam.filter(item => item.status == 'OB');
+const OBServer = serverTeam.filter(item => item.status === 'OB');
 
 // OB Member Shuffle
 const shuffleOBMember = OBServer.map(a => ([Math.random(), a]))
@@ -21,7 +21,7 @@ const shuffleOBMember = OBServer.map(a => ([Math.random(), a]))
 
 
 
-const YBServer = serverTeam.filter(item => item.status == 'YB');
+const YBServer = serverTeam.filter(item => item.status === 'YB');
 
 // YB Member Shuffle
 const shuffleYBMember = YBServer.map(a => ([Math.random(), a]))
